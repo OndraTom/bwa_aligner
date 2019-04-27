@@ -1,0 +1,9 @@
+{
+	"parameters": {
+		"reference": "/data/in/files/reference/human_g1k_v37.fasta",
+		"reads": [
+			"/data/in/files/reads/R1",
+			"/data/in/files/reads/R2"
+		]
+	}
+}

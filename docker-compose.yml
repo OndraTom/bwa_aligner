@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./config.json:/data/config.json
+      - ./out:/data/out/files
+      - /media/odis/nikosh_adata_backup/work/NGS_meiro/reference:/data/in/files/reference
+      - /media/odis/nikosh_adata_backup/work/NGS_meiro/test/bwa:/data/in/files/reads
